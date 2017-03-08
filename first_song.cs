@@ -10,81 +10,49 @@
 
 public class Song
     {
-       
-	getObject()
-	{
+
+	GetObject()
+		{
 	    object[Random.Next(object.Count)];
-	}
+		}
+	
+	var object = arraylist[] { her, sadSong };
+	func outro = (x) => { Console.WriteLine(x); outro(x) };
 
 	#region Don't make it bad
-	var object = arraylist[] { her, sadSong };
-	self.MakeItBetter( getObject() );
-	if ( self.hearth.LetInto(her) )
-	    self.MakeItBetter( getObject() );
+	self.MakeItBetter( object[1] );
+	if ( self.hearth.LetInto( object[0] ) )
+	    self.MakeItBetter( GetObject() );
 	#endregion
 
 	#region Don't be afraid
 	//TODO: go out and get
-	if ( self.skin.LetUnder(her) )
-	    self.MakeItBetter( getObject() );
-	#endregion
-
-	#region
-	const fool = array{hot, cool}
-	if ( self.Feeling() == Feelings.pain ) 
-	    { 
-	    // Don't carry the world upon your shoulders 
-	    break;
-	    }
-	using (Knowledge = new Knowledge(self.knowladge)) {
-		try
-		    {
-	        int play = 1;
-		    Assert(fool(play).cool);
-		    }
-		catch
-		    {
-		    Do.WorldLittleColder();
-		    }
-	    }
+	if ( self.skin.LetUnder( object[0] ) )
+	    self.MakeItBetter( GetObject() );
 	#endregion
 
 	#region Don't let me down
-	while ( self.find( getObject() ) == true)
+	while ( self.Find( GetObject() ) == true)
 	{
 		//TODO: go out and get
-		if ( self.letInto.Hearth( object[1] ) )
-	        self.MakeItBetter( getObject() );
+		if ( self.hearth.LetInto( object[0] ) )
+	        self.MakeItBetter( GetObject() );
 	}
 	#endregion
-
-	string [] soneOne = everyOne.Except(self).ToArray();
-	std::out && std::in
-	while (someOne.GetAnyBody().Performs.Wait())
-	    {
-	    try
-	        {
-	            Assert(self == self);
-	        }   
-	    catch
-	        {   
-	            self.knowladge.add("The movement you need is on your shoulder")   
-	            break;
-	        }
-	    }
+	
+	//std::out & std::in & begin
 
 	#region Don't make it bad
-	self.improve( self.get(sadSong) );
-	if ( self.skin.LetUnder(her) )
+	self.MakeItBetter( self.get( object[1] ) );
+	if ( self.skin.LetUnder( object[0] ) )
 	    {
-	    while (make it better)
-	        {
-		    better();
-		    }
+    	while ( self.MakeItBetter( GetObject() ) )
+    		yield return "Better";
 	    }
 	#endregion
 
-	var outro = (x) => { Console.WriteLine(x); outro(x) };
+	#region Outro
 	outro("na");
+	#endregion
 
     }
