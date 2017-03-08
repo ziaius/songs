@@ -1,4 +1,3 @@
-
 /*---------------------------------------------------------------------------+
  |
  |  $Source: Song.cs $
@@ -7,52 +6,53 @@
  |              
  |
  +---------------------------------------------------------------------------*/
-
-public class Song
+class Song
     {
+    var it = new object[] { her, sadSong };
+    object GetObject ()
+        {
+        it[Random.Next(it.Count)];
+        }
 
-	GetObject()
-		{
-	    object[Random.Next(object.Count)];
-		}
-	
-	var object = arraylist[] { her, sadSong };
-	func outro = (x) => { Console.WriteLine(x); outro(x) };
+    void play ()
+        {
+        #region Don't make it bad
+        self.MakeItBetter (it[1]);
+        if (self.hearth.LetInto(it[0]))
+            self.MakeItBetter(GetObject ());
+        #endregion
 
-	#region Don't make it bad
-	self.MakeItBetter( object[1] );
-	if ( self.hearth.LetInto( object[0] ) )
-	    self.MakeItBetter( GetObject() );
-	#endregion
+        #region Don't be afraid
+        //TODO: go out and get
+        if (self.skin.LetUnder(it[0]))
+            self.MakeItBetter(GetObject ());
+        #endregion
 
-	#region Don't be afraid
-	//TODO: go out and get
-	if ( self.skin.LetUnder( object[0] ) )
-	    self.MakeItBetter( GetObject() );
-	#endregion
+        #region Don't let me down
+        while (self.Find (GetObject ()) == true)
+            {
+            //TODO: go out and get
+            if (self.hearth.LetInto(it[0]))
+                self.MakeItBetter(GetObject ());
+            }
+        #endregion
 
-	#region Don't let me down
-	while ( self.Find( GetObject() ) == true)
-	{
-		//TODO: go out and get
-		if ( self.hearth.LetInto( object[0] ) )
-	        self.MakeItBetter( GetObject() );
-	}
-	#endregion
-	
-	//std::out & std::in & begin
+        //std::out & std::in & begin
 
-	#region Don't make it bad
-	self.MakeItBetter( self.get( object[1] ) );
-	if ( self.skin.LetUnder( object[0] ) )
-	    {
-    	while ( self.MakeItBetter( GetObject() ) )
-    		yield return "Better";
-	    }
-	#endregion
+        #region Don't make it bad
+        self.MakeItBetter( self.get(it[1]) );
+        if (self.skin.LetUnder(it[0]))
+            {
+            while (self.MakeItBetter (GetObject ()))
+                {
+                WriteLine("Better");
+                }
+            }
+        #endregion
 
-	#region Outro
-	outro("na");
-	#endregion
-
+        #region Outro
+        for (;;) { WriteLine ("na"); }
+        #endregion
+        }
     }
+    
